@@ -10,6 +10,22 @@
 string[] stringArray = new string[4] { "Hello", ":)", "world", "2" };
 string[] newArray = new string[4];
 int count = 0;
+for (int j = 0; j < stringArray.Length; j++)
+{
+    string item = stringArray[j];
+
+    for (int i = 0; i < item.Length; i++)
+    {
+        count++;
+    }
+
+    if (count <= 3)
+    {
+        newArray[j] = stringArray[j];
+    }
+    count = 0;
+}
+
 
 
 
