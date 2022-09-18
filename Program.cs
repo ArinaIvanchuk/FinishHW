@@ -25,6 +25,9 @@ for (int j = 0; j < stringArray.Length; j++)
     }
     count = 0;
 }
+Console.WriteLine();
+Console.Write($"[{String.Join(" ", stringArray)}] -> ");
+Console.Write($"[{String.Join(" ", newArray)}]");
 
 
 
